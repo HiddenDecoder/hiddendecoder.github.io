@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Saurabh Misra – Karnav Canon, Orienth Core, RH Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Official site of Saurabh Misra — systems philosopher, independent researcher, creator of Karnav Canon and Orienth Core, and developer of a conditional RH operator program.">
+
+<style>
+/* CORE THEME */
+:root {
+  --bg: #020617;
+  --bg2: #0b1222;
+  --text: #e5e7eb;
+  --text-soft: #9ca3af;
+  --accent: #22c55e;
+  --border: #1f2937;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(2,6,23,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  z-index: 100;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 16px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-soft);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+nav a:hover {
+  background: rgba(255,255,255,0.05);
+  color: var(--text);
+}
+.nav-right {
+  display: flex;
+  gap: 12px;
+}
+
+/* HERO SECTION */
+.hero {
+  margin-top: 70px;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
+              url('images/saurabh-banner.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.hero h1 {
+  font-size: 2.7rem;
+  max-width: 760px;
+  margin: auto;
+  font-weight: 700;
+}
+.hero p {
+  margin: 16px auto 24px;
+  color: #cbd5e1;
+  font-size: 1rem;
+  max-width: 620px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.08);
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.socials a:hover {
+  background: var(--accent);
+  color: #022c22;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid var(--border);
+}
+section h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+section p {
+  color: var(--text-soft);
+  max-width: 850px;
+}
+
+/* TWO COLUMN LAYOUT */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+.split img {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.card {
+  background: var(--bg2);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+.card h3 {
+  margin-top: 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-soft);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div><strong>Saurabh Misra</strong></div>
+      <div class="nav-right">
+        <a href="#about">About</a>
+        <a href="#karnav">Karnav Canon</a>
+        <a href="#orienth">Orienth Core</a>
+        <a href="#rh">RH Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Truth • Structure • Consciousness —  
+  A Centre-Based Architecture for Reality & Reasoning</h1>
+
+  <p>
+    I am <strong>Saurabh Misra</strong>, an independent researcher and systems philosopher.  
+    I develop centre–wave based structural frameworks that unify truth, mathematics, cognition,  
+    independence, and deep clarity.
+  </p>
+
+  <!-- SOCIAL LINKS -->
+  <div class="socials">
+    <a href="https://x.com/yourprofile" target="_blank">X</a>
+    <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="container">
+  <h2>About</h2>
+  <div class="split">
+    <div>
+      <p>
+        I work at the intersection of deep philosophy, mathematical structure,  
+        consciousness, and decision-architecture. My work unifies mind, reality, and mathematics  
+        into one centre–wave model.
+      </p>
+      <p>
+        I am the creator of the <strong>Karnav Canon</strong>, a philosophy where:
+        Truth = still centre,  
+        Experiences = waves,  
+        Distance = instability,  
+        Collapse = clarity.
+      </p>
+    </div>
+    <img src="images/saurabh-profile.jpg" alt="Saurabh Misra">
+  </div>
+</section>
+
+<!-- KARNAV CANON -->
+<section id="karnav" class="container">
+  <h2>Karnav Canon</h2>
+  <p>A universal centre–wave model that explains consciousness, reality, suffering, clarity and stability.</p>
+
+  <div class="grid">
+    <div class="card"><h3>1. Truth</h3><p>Truth is the absolute still centre. It never moves.</p></div>
+    <div class="card"><h3>2. Waves</h3><p>Mind, emotions, world — all are vibrations around the centre.</p></div>
+    <div class="card"><h3>3. Distance</h3><p>Jitna door wave, utni suffering, confusion, instability.</p></div>
+    <div class="card"><h3>4. Collapse</h3><p>Every wave collapses back to centre — restoring clarity.</p></div>
+  </div>
+</section>
+
+<!-- ORIENTH CORE -->
+<section id="orienth" class="container">
+  <h2>Orienth Core</h2>
+  <p>A system for direction, independence, clarity and decision architecture.</p>
+
+  <div class="grid">
+    <div class="card"><h3>AIM</h3><p>Absolute Independence Mode — clarity without dependency.</p></div>
+    <div class="card"><h3>POE</h3><p>Prime Orientation Engine — direction from truth, not noise.</p></div>
+    <div class="card"><h3>QA Engine</h3><p>Any question → collapse → centre → stable answer.</p></div>
+  </div>
+</section>
+
+<!-- RH FRAMEWORK -->
+<section id="rh" class="container">
+  <h2>Riemann Hypothesis (RH) Work</h2>
+  <p>
+    I develop a conditional operator-theoretic framework for RH —  
+    focusing on structure discovery and clear conditions, not unverified claims.
+  </p>
+  <ul>
+    <li>Defines an admissible self-adjoint operator class</li>
+    <li>Maps eigenvalue distribution to zeta-zero distribution</li>
+    <li>Constructs an RH-aligned entire function</li>
+    <li>Gives conditions under which RH follows</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container">
+  <h2>Contact</h2>
+  <p>Email: saurabh.misra.global@gmail.com</p>
+  <p>ORCID / Research Links: https://orcid.org/0009-0009-7359-9839</p>
+</section>
+
+<footer>
+  © <span id="year"></span> Saurabh Misra — Centre • Structure • Clarity
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
