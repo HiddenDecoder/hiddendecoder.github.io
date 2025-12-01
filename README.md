@@ -1,4 +1,4 @@
-# saurabhmisra.github.io
+# hiddendecoder.github.io
 # Saurabh Misra – Karnav Canon & Structural Systems
 
 This repository hosts the official website of **Saurabh Misra**, an independent researcher and systems philosopher.  
